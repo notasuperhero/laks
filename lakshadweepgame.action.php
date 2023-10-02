@@ -8,5 +8,11 @@ class view_lakshadweepgame_lakshadweepgame extends game_view
     function getGameName() {
         return "lakshadweepgame";
     } 
+   public function placeTile()
+    {
+        self::setAjaxMode();     
+       
+        self::ajaxResponse( );
+    }
 
 }

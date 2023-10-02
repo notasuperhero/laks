@@ -17,4 +17,4 @@ CREATE TABLE IF NOT EXISTS `contracts` (
   `contract_valid` smallint(5) NOT NULL,
   
   PRIMARY KEY (`board_row`,`board_column`),
-) ENGINE=InnoDB;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

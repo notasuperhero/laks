@@ -7,7 +7,7 @@ $gameinfos = array(
     'year' => 2013,    
     'publisher' => 'Luma',  
     'publisher_website' => '',  
-    'publisher_bgg_id' => 173,
+    'publisher_bgg_id' => 0,
     'bgg_id' => 68,
     'players' => array( 2 ),  
     'estimated_duration' => 30, 
@@ -19,5 +19,9 @@ $gameinfos = array(
     'luck' => 3,  
     'strategy' => 3, 
     'player_colors' => array( "CA5A26", "9B4B9D" ),
+    'presentation' => array(
+        totranslate("This wonderful game is about geometric shapes!"),
+
+     ),
 
 );
